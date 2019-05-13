@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Javascript Sym Com Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Symmetrical Components</h1>
+        <hr>
+        <div>
+            <label>|Phase A|:</label>
+            <input type="text" placeholder="Phase A Magnitude" id=phaseAMag>
+        </div>
+        <div>
+            <label>Angle A:</label>
+            <input type="range" min="0" max="359" value="1" id=phaseAAngle>
+        </div>
+        <hr>
+
+        <div>
+            <div>
+                <label>|Phase B|:</label><span id="phaseBMag"></span>
+            </div>
+            <div>
+                <label>Angle B:</label><span id="phaseBAngle"></span>
+            </div>
+            <div>
+                <label>|Phase C|:</label><span id="phaseCMag"></span>
+            </div>
+            <div>
+                <label>Angle C:</label><span id="phaseCAngle"></span>
+            </div>
+        </div>
+
+    </div>
+    <script src="ricksscript.js"></script>
+
+</body>
+</html>
